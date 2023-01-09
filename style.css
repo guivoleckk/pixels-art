@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2022/12/10/11/05/snow-7646952_960_720.jpg);
+    background-size: cover;
+}
+
+#pixel-board {
+ margin-left: 650px;
+}
+
+main {
+    text-align: center;
+}
