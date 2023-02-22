@@ -158,8 +158,8 @@ const criacaoTamanhoBoard = () => {
     divs.style.height = '40px';
     divs.style.border = '1px solid black'; 
     divs.style.display = 'inline-block'
-    pegandoLousaTamanho.style.height = 44 * valorInput.value + 'px';
-    pegandoLousaTamanho.style.width = 44 * valorInput.value + 'px';
+    pegandoLousaTamanho.style.height = 40 * valorInput.value + 'px';
+    pegandoLousaTamanho.style.width = 40 * valorInput.value + 'px';
   }
   valorInput.value = '';
 };

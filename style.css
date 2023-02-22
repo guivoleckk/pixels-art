@@ -1,17 +1,78 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2022/12/10/11/05/snow-7646952_960_720.jpg);
+    background-image: url(https://designcomcafe.com.br/wp-content/uploads/2018/10/blog_pixel_art_capa_star_wars.jpg);
     background-size: cover;
+    font-family: 'Condiment', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Kavoon', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(14, 13, 13);
+    font-size: 1.25rem;
+}
+
+h1 {
+    border: 0.0625rem solid;
+    background-color: aliceblue;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 0.375rem;
 }
 
 #pixel-board {
- margin: 20px auto;
+ margin: 1.25rem auto;
 }
 
 main {
+    margin-top: 1.5rem;
     text-align: center;
+}
+
+.color {
+    border-radius: 50%;
+}
+
+#button-random-color {
+    padding: 0.375rem;
+    font-size: 0.9375rem;
+    border-radius: 0.9375rem;
+    background-color: orange;
+    color: white;
+}
+
+#button-random-color:hover {
+    opacity: 0.8;
+}
+
+#clear-board {
+    padding: 0.375rem;
+    font-size: 0.9375rem;
+    border-radius: 0.9375rem;
+    background-color: purple;
+    color: white; 
+}
+
+#clear-board:hover {
+    opacity: 0.8; 
+}
+
+#board-size {
+    border-radius: 0.4375rem;
+}
+
+#generate-board {
+    padding: 0.375rem;
+    font-size: 0.9375rem;
+    border-radius: 0.9375rem;
+    background-color: green;
+    color: white; 
+}
+
+#generate-board:hover {
+    opacity: 0.8;
 }
